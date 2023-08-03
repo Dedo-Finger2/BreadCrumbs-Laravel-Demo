@@ -3,5 +3,8 @@
 @section('title', 'Contact')
 
 @section('content')
-    <h1>Contact da aplicação</h1>
+
+{{ Breadcrumbs::render('contact') }}
+
+    <h1>Contato da aplicação</h1>
 @endsection
